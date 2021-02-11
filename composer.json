@@ -1,0 +1,26 @@
+{
+    "name": "xtwoend/query-string",
+    "description": "AddOn method sorts & filter on request",
+    "type": "library",
+    "require": {
+        "hyperf/http-server": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xtwoend\\QueryString\\": "src/"
+        }
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Xtwoend\\QueryString\\ConfigProvider"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Hafidz Anshari",
+            "email": "aditans88@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
